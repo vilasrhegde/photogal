@@ -14,6 +14,7 @@ const ImageGrid = () =>{
                 <div className="img-wrap" key={doc.id}>
                     <img src={doc.URL} alt="Uploaded Pic" title="Just embrace it"/>
                 </div>
+                
             ))}    
         </div>
     
